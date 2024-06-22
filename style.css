@@ -39,7 +39,7 @@
     justify-content: space-between;
     background: #f4e6f1;
     border-radius: 20px;
-    padding-left: 29px;
+    padding-left: 15px;
     margin-bottom: 10px;
 }
 input{
@@ -61,7 +61,8 @@ button{
 ul li{
     list-style: none;
     font-size: 17px;
-    padding: 20px 8px 12px 50px;
+    word-wrap: break-word;
+    padding: 20px 50px 8px 50px;
     user-select: none;
     cursor: pointer;
     position: relative;
@@ -71,12 +72,10 @@ ul li::before{
     position: absolute;
     height: 30px;
     width: 30px;
-    border-radius: 50%;
     background-image: url(images/unchecked.png);
     background-size: 30px 30px;
-    background-position: center;
-    left: 8px;
-    bottom: 8px;
+    left: 5px;
+    bottom: 5px;
 }
 ul li.checked{
     text-decoration: line-through;
